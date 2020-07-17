@@ -1,0 +1,38 @@
+{
+  "name": "openmoji-spritemap-generator",
+  "version": "2.1.4",
+  "description": "Generate sprite sheets from OpenMoji emojis",
+  "keywords": [
+    "sprite",
+    "spritesheet",
+    "emoji",
+    "emoji-picker",
+    "unicode"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/axelpale/openmoji-spritemap-generator.git"
+  },
+  "scripts": {
+    "start": "npm run generate",
+    "generate": "node run.js",
+    "lint": "standard '**/*.js' && echo OK",
+    "test": "npm run lint",
+    "release": "npm test && npm publish"
+  },
+  "author": {
+    "name": "Akseli Palén",
+    "email": "akseli.palen@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "mkdirp": "^1.0.4",
+    "sharp": "^0.25.2",
+    "svg-sprite": "^1.5.0"
+  }
+}

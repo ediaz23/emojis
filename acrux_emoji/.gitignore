@@ -1,0 +1,11 @@
+__pycache__/
+*.directory
+*.pyc
+0_EDICION
+0_tmp
+/.project
+/.pydevproject
+.settings/
+.idea/
+*node_modules/
+/html/
